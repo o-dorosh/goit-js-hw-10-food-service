@@ -31,7 +31,7 @@ function onThemeSwitch(event){
     }
 };
 
-function saveTheme(){
+function savedTheme(){
     const savedTheme = localStorage.getItem('theme');
 
     if(savedTheme === `${Theme.DARK}`){
@@ -44,4 +44,4 @@ function saveTheme(){
     }
 };
 
-saveTheme();
+savedTheme();
